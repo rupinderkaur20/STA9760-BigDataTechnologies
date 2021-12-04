@@ -19,7 +19,7 @@ docker run -v $PWD:/app \
 	-e ES_USERNAME="USER NAME" \
 	-e ES_PASSWORD="PASSWORD" \
 	-d project01:1.0 python src/main.py --page_size=200000 
-    --num_pages=1
+        --num_pages=1
 ```
 
 As for the python script, you can see that on line 63, which is given below, I have a loop. However, because I was parallelizing the process using multiple containers and EC2 instances, the loop would have resetted the offset resulting in duplicates. So, I removed this loop while I loaded the rows.
