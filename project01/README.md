@@ -35,30 +35,29 @@ As for the python script, you can see that on line 63, which is given below, I h
 ## Visualizing the data
 After the rows were uploaded, I visually analysed the data in Kibana. I created a total of 6 visualizations. I used tag cloud, metric, TSVB, horizontal bar, pie, to create them. Please note that the missing values were exlcuded. Below are the visualizations:
 
-### <u>Figure 1: Unique Summons</u>
+### Figure 1: Unique Summons
 ![](assets/unique_summons.png)
 
-### <u>Figure 2: Number of Violations Per Fine Amount</u>
+### Figure 2: Number of Violations Per Fine Amount
 ![](assets/num_violation_per_fine_amount.png)
 
-### <u>Figure 3: Number of Summons Per Year</u>
+### Figure 3: Number of Summons Per Year
 ![](assets/num_summons_year.png)
 
-### <u>Figure 4: Percentage of Parking Violations Per County</u>
+### Figure 4: Percentage of Parking Violations Per County
 ![](assets/donut.png)
 
-### <u>Figure 5: Top 10 Violations</u>
+### Figure 5: Top 10 Violations
 ![](assets/cloud.png)
 
-### <u>Figure 6: Total Yearly Fine Per Fine Amount</u>
+### Figure 6: Total Yearly Fine Per Fine Amount
 ![](assets/area.png)
 
 ## Conclusion
-For this project I uploaded more then 5 five million unique rows to Elasticsearch as can be seen
-in Figure 1. From the analysis in Kibana we know that:
+For this project I uploaded more then 5 five million unique rows to Elasticsearch as can be seen in Figure 1. From the analysis in Kibana we know that:
 
 - \$115 was charged for the most parking violations followed by \$45 (Figure 2)
 - Most summons were issued in years 2016, 2017 and 2019 (Figure 3)
 - Most summons were issued in counties k and NY (Figure 4)
-- Most common violations include "no parking street-cleaning", "no standing-day/time limits",      "crosswalk", "double parking" etc. (Figure 5)
-- The total yearly amount for the fine amount of \$115 was the highest from 2012 - 2020, but       towards the end of 2020 we see the total yearly amount for fine amount of \$65 is surpassing it (Figure 6)
+- Most common violations include "no parking street-cleaning", "no standing-day/time limits", "crosswalk", "double parking" etc. (Figure 5)
+- The total yearly amount for the fine amount of \$115 was the highest from 2012 - 2020, but towards the end of 2020 we see the total yearly amount for fine amount of \$65 is surpassing it (Figure 6)
