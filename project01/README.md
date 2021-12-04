@@ -36,22 +36,22 @@ As for the python script, you can see that on line 63, which is given below, I h
 After the rows were uploaded, I visually analysed the data in Kibana. I created a total of 6 visualizations. I used tag cloud, metric, TSVB, horizontal bar, pie, to create them. Please note that the missing values were exlcuded. Below are the visualizations:
 
 ### Figure 1: Unique Summons
-![](assets/unique_summons.png)
+![Unique Summons](assets/unique_summons.png)
 
 ### Figure 2: Number of Violations Per Fine Amount
-![](assets/num_violation_per_fine_amount.png)
+![Number of Violations Per Fine Amount](assets/num_violation_per_fine_amount.png)
 
 ### Figure 3: Number of Summons Per Year
-![](assets/num_summons_year.png)
+![Number of Summons Per Year](assets/num_summons_year.png)
 
 ### Figure 4: Percentage of Parking Violations Per County
-![](assets/donut.png)
+![Percentage of Parking Violations Per County](assets/donut.png)
 
 ### Figure 5: Top 10 Violations
-![](assets/cloud.png)
+![Top 10 Violations](assets/cloud.png)
 
 ### Figure 6: Total Yearly Fine Per Fine Amount
-![](assets/area.png)
+![Total Yearly Fine Per Fine Amount](assets/area.png)
 
 ## Conclusion
 For this project I uploaded more then 5 five million unique rows to Elasticsearch as can be seen in Figure 1. From the analysis in Kibana we know that:
